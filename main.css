@@ -80,6 +80,7 @@ body, html {
     text-align: center;
 }
 
+
 .title1{
     font-size: 50px;
     text-align: center;
@@ -136,7 +137,35 @@ body, html {
     .hidden-mobile {
         display: none;
     }
+    .title1 {
+        font-size: 30px;
+    }
+    .title2 {
+        font-size: 30px;
+    }
+    .title-row {
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bear {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .flowers-daisy {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .flex-row {
+        flex-direction: column;
+        align-items: center;
+    }
     .text-body {
         font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .parent {
+        margin-top: 100px;
     }
   }
