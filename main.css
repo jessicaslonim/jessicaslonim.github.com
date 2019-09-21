@@ -138,10 +138,10 @@ body, html {
         display: none;
     }
     .title1 {
-        font-size: 30px;
+        font-size: 20px;
     }
     .title2 {
-        font-size: 30px;
+        font-size: 20px;
     }
     .title-row {
         margin-top: 50px;
@@ -161,11 +161,11 @@ body, html {
         align-items: center;
     }
     .text-body {
-        font-size: 10px;
+        font-size: 15px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
     .parent {
-        margin-top: 100px;
+        margin-top: 0px;
     }
   }
