@@ -21,15 +21,6 @@ body {
     height: 100%;
  
 }
-.parent {
-    margin-right: auto; /* 1 */
-    margin-left:  auto; /* 1 */
-  
-    max-width: 960px; /* 2 */
-    height: 100%;
-    padding-right: 10px; /* 3 */
-    padding-left:  10px; /* 3 */
-}
 
 .flex-row {
     display: flex;
