@@ -14,13 +14,6 @@ body {
   width:100%;
  height:100%;
 }
-.parent-parent {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    height:100%;
-
-}
 .flex-parent {
     display: flex;
     flex-direction: column;
@@ -28,15 +21,7 @@ body {
     height: 100%;
  
 }
-.parent {
-    display: flex;
-    flex-direction: column;
-    height:100%;
-    justify-content: center;
-    align-items: space-around;
-    padding-right: 10px; /* 3 */
-    padding-left:  10px; /* 3 */
-}
+
 
 .flex-row {
     display: flex;
@@ -140,6 +125,18 @@ body, html {
   @keyframes scroll{
     100%{
       background-position:3000px 0px;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    .parent {
+        margin-right: auto; /* 1 */
+        margin-left:  auto; /* 1 */
+      
+        max-width: 960px; /* 2 */
+        height: 100%;
+        padding-right: 10px; /* 3 */
+        padding-left:  10px; /* 3 */
     }
   }
   
